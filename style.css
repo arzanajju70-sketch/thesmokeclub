@@ -339,3 +339,174 @@ transition:.3s;
 background:#128C7E;
 
 }
+/* ===========================
+   REVIEWS
+=========================== */
+
+#reviews{
+padding:80px 8%;
+background:#111;
+text-align:center;
+}
+
+#reviews h2{
+font-size:42px;
+color:gold;
+margin-bottom:40px;
+}
+
+.review{
+background:#1b1b1b;
+padding:25px;
+margin:20px auto;
+max-width:700px;
+border-radius:15px;
+border-left:5px solid gold;
+font-size:18px;
+color:#ddd;
+transition:.3s;
+}
+
+.review:hover{
+transform:scale(1.02);
+box-shadow:0 0 25px rgba(255,215,0,.25);
+}
+
+/* ===========================
+   ABOUT
+=========================== */
+
+#about{
+padding:80px 8%;
+text-align:center;
+background:#0f0f0f;
+}
+
+#about h2{
+font-size:42px;
+color:gold;
+margin-bottom:20px;
+}
+
+#about p{
+max-width:900px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+color:#ccc;
+}
+
+/* ===========================
+   QUOTE
+=========================== */
+
+.quote{
+padding:80px 20px;
+text-align:center;
+background:#111;
+}
+
+.quote h2{
+font-size:34px;
+color:gold;
+font-style:italic;
+}
+
+/* ===========================
+   CONTACT
+=========================== */
+
+#contact{
+padding:80px 8%;
+background:#0d0d0d;
+text-align:center;
+}
+
+#contact h2{
+font-size:42px;
+color:gold;
+margin-bottom:30px;
+}
+
+#contact p{
+font-size:18px;
+margin:15px 0;
+color:#ddd;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+background:#000;
+padding:35px;
+text-align:center;
+color:#888;
+font-size:15px;
+border-top:1px solid #222;
+}
+
+/* ===========================
+   FLOATING WHATSAPP
+=========================== */
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 20px rgba(37,211,102,.5);
+transition:.3s;
+z-index:999;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+background:#128C7E;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+padding:15px;
+}
+
+nav{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.title{
+font-size:34px;
+}
+
+.products{
+grid-template-columns:1fr;
+}
+
+.card img{
+width:150px;
+height:150px;
+}
+
+}
