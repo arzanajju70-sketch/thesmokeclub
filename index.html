@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>The Smoke Club</title>
+<title>The Smoke Club | Bangalore</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
+<!-- LOADER -->
+
+<div id="loader">
+
+<h1>THE SMOKE CLUB</h1>
+
+<p>Loading Premium Experience...</p>
+
+</div>
+
+<!-- HEADER -->
+
 <header>
 
 <div class="logo">
+
 🔥 THE SMOKE CLUB
+
 </div>
 
 <nav>
@@ -26,6 +42,8 @@
 <a href="#">Home</a>
 
 <a href="#products">Products</a>
+
+<a href="#request">Request</a>
 
 <a href="#about">About</a>
 
@@ -37,11 +55,19 @@
 
 </header>
 
+<!-- HERO -->
+
 <section class="hero">
 
-<div class="overlay">
+<img src="hero-banner.png" class="hero-image">
 
-<h1>Premium Smoke Experience</h1>
+<div class="hero-content">
+
+<h1>
+
+Premium Smoke Experience
+
+</h1>
 
 <p>
 
@@ -49,7 +75,7 @@ Luxury Vapes • Perfumes • Rolling Papers • Accessories
 
 </p>
 
-<a href="#products" class="shopbtn">
+<a href="#products" class="mainBtn">
 
 Explore Collection
 
@@ -59,7 +85,9 @@ Explore Collection
 
 </section>
 
-<section class="search">
+<!-- SEARCH -->
+
+<section class="searchSection">
 
 <input
 
@@ -75,208 +103,56 @@ onkeyup="searchProducts()"
 
 </section>
 
-<h2 class="title" id="products">
+<!-- CATEGORY -->
+
+<section class="categories">
+
+<div class="category">
+
+🔥
+
+<h3>Vapes</h3>
+
+</div>
+
+<div class="category">
+
+💨
+
+<h3>Hookah</h3>
+
+</div>
+
+<div class="category">
+
+🌸
+
+<h3>Perfumes</h3>
+
+</div>
+
+<div class="category">
+
+📄
+
+<h3>Rolling Papers</h3>
+
+</div>
+
+<div class="category">
+
+🛍️
+
+<h3>Accessories</h3>
+
+</div>
+
+</section>
+
+<h2 class="sectionTitle" id="products">
 
 Featured Collection
 
 </h2>
 
 <div class="products">
-
-<div class="card">
-
-<img src="images/d1.jpg">
-
-<h3>D1</h3>
-
-<p>Price : Negotiable</p>
-
-<button onclick="order('D1')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-<div class="card">
-
-<img src="images/d3.jpg">
-
-<h3>D3</h3>
-
-<p>Price : Negotiable</p>
-
-<button onclick="order('D3')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-<div class="card">
-
-<img src="images/d3pro.jpg">
-
-<h3>D3 PRO</h3>
-
-<p>Price : Negotiable</p>
-
-<button onclick="order('D3 PRO')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-<div class="card">
-
-<img src="images/iget.jpg">
-
-<h3>IGET</h3>
-
-<p>Price : Negotiable</p>
-
-<button onclick="order('IGET')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-<div class="card">
-
-<img src="images/perfume.jpg">
-
-<h3>Perfumes</h3>
-
-<p>Starting ₹499</p>
-
-<button onclick="order('Perfume')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-<div class="card">
-
-<img src="images/papers.jpg">
-
-<h3>Rolling Papers</h3>
-
-<p>Starting ₹100</p>
-
-<button onclick="order('Rolling Papers')">
-
-Ask Availability
-
-</button>
-
-</div>
-
-</div>
-
-<section class="quote">
-
-<h2>
-
-"Premium Quality. Real Vibes."
-
-</h2>
-
-</section>
-
-<section id="about">
-
-<h2>About Us</h2>
-
-<p>
-
-Welcome to The Smoke Club.
-
-We offer premium vapes, perfumes,
-
-rolling papers and accessories.
-
-Message us on WhatsApp to check
-
-availability before ordering.
-
-</p>
-
-</section>
-
-<section id="reviews">
-
-<h2>Customer Reviews</h2>
-
-<div class="review">
-
-★★★★★
-
-Best vape collection in Bangalore.
-
-</div>
-
-<div class="review">
-
-★★★★★
-
-Original products and fast service.
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>
-
-📍 Bangalore
-
-</p>
-
-<p>
-
-📱 WhatsApp : 9900509974
-
-</p>
-
-<p>
-
-Instagram : @thesmokeclub
-
-</p>
-
-</section>
-
-<footer>
-
-© 2026 THE SMOKE CLUB
-
-</footer>
-
-<a
-
-class="whatsapp"
-
-href="https://wa.me/919900509974"
-
-target="_blank">
-
-WhatsApp
-
-</a>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
